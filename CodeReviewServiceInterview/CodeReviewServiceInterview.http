@@ -1,0 +1,9 @@
+@CodeReviewServiceInterview_HostAddress = http://localhost:5117
+
+GET {{CodeReviewServiceInterview_HostAddress}}/messages/getmessages
+Accept: application/json
+
+POST {{CodeReviewServiceInterview_HostAddress}}/messages/createmessage
+Accept: application/json
+
+###
